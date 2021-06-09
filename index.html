@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andare In Italia</title>
+    <link rel="icon" type="image/svg+xml" href="img/italia.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="container-fluid" style="padding: 15px 80px 20px 80px; ">
+            <h1 class="titulo-fondo" style="text-align: center;
+            font-size: 65px;
+            color: #166f91;
+            margin-top: 160px;
+            margin-left: 850px;
+            font-weight: 600;
+            font-family: 'Signika Negative', sans-serif;">Bienvenid@ a</h1>
+            <h1 class="titulo-fondo" style="text-align: center;
+            font-size: 100px;
+            color: #166f91;
+            margin-top: 10px;
+            margin-left: 850px;
+            font-weight: 600;
+            font-family: 'Kaushan Script', cursive;">Italia</h1>
+            <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#ModalIngresar" style="
+            background: linear-gradient(180deg, #35c1cf 0%, #22a7d4 100%);
+            color: #fff;
+            margin-top: 80px;
+            margin-left: 1200px;
+            border-radius: 25px;">
+                Comenzar
+            </button>
+            <!-- <a href='https://www.freepik.es/vectores/negocios' style="
+            margin-top: 1500px;
+            margin-left: 850px;">Vector de Negocios creado por pikisuperstar -
+                www.freepik.es</a> -->
+        </div>
+    </div>
+
+    <!-- Modal Ingresar -->
+    <div class="modal fade" id="ModalIngresar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login100-form-title" style="background-image: url(img/italia_ingresar.jpg)">
+                        <span class="inicio-titulo-1">
+                            Inicia Sesión
+                        </span>
+                    </div> <br>
+                    <form id="formingresar">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-at"></i></span>
+                            <input type="email" class="form-control" id="correo" required
+                                placeholder="Correo Electrónico">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-unlock-alt"></i></span>
+                            <input type="password" id="contrasena" class="form-control" required
+                                placeholder="Contraseña">
+                        </div>
+                        <div class="container-fluid" id="login">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <button type="submit" name="button" class="btn btn-outline-success"
+                                            class="btn btn-outline-success">
+                                            <i class="fas fa-sign-in-alt"></i>Ingresar
+                                        </button>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <button type="submit" name="button" class="btn btn-outline-primary"
+                                        data-bs-toggle="modal" data-bs-target="#ModalRegistrarse">
+                                        <i class="fas fa-sign-in-alt"></i> Registrarse
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="error text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Registrarse -->
+    <div class="modal fade" id="ModalRegistrarse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login100-form-title" style="background-image: url(img/italia_registro.jpg)">
+                        <span class="inicio-titulo-1">
+                            Regístrate
+                        </span>
+                    </div> <br>
+                    <form id="formregistro">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-user"></i></span>
+                            <input type="text" class="form-control" id="rnombre" required placeholder="Nombre" aria-label="Nombre">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-at"></i></span>
+                            <input type="email" class="form-control" id="rcorreo" required placeholder="Correo Electrónico"
+                                aria-label="Correo">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-unlock-alt"></i></span>
+                            <input type="password" class="form-control" id="rcontrasena" required placeholder="Contraseña"
+                                aria-label="Contraseña">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
+                                    class="fas fa-globe-americas"></i></span>
+                            <input type="text" class="form-control" id="rpais" required placeholder="País de residencia"
+                                aria-label="Pais">
+                        </div>
+                        <div class="container-fluid" id="login">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <button type="submit" name="button" class="btn btn-outline-secondary"
+                                            class="btn btn-outline-success">
+                                            <i class="fas fa-sign-in-alt"></i>Ingresar
+                                        </button>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <button type="button" onclick="entrarGoogle()"
+                                        class="btn btn-outline-danger">
+                                        <i class="fa fa-google"></i> Google
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="error text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/819d38fe29.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/autorizacion.js"></script>
+    
+
+</body>
+
+</html>

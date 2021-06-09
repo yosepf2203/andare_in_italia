@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@font-face {
+    font-family: 'mostra_nuovaaltb_bold';
+    src: url('fonts/Mostra\ Nuova\ AltA.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.navbar {
+    box-shadow: -2px -3px 42px -8px rgba(0,0,0,0.75);
+}
+
+.login100-form-title {
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 15px 70px 15px;
+}
+
+.inicio-titulo-1 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 143px;
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(66, 95, 109, 0.7);
+}
+
+#login  button {
+    padding: 10px 0 0 10 !important;
+    margin: 20px 0 0 0 !important;
+    width: 100%;
+    border-radius: 19px;
+}
+
+.error {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+#myaccount  button {
+    padding: 0 0 0 0 !important;
+    margin: 10px 0 20px 300px !important;
+    width: 70%;
+    height: 70%;
+    border-radius: 19px;
+}
+
+.fondo {
+    /* width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1; */
+    background-image:  url("../img/italia_inicio.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: block;
+
+}
+
+/* .titulo-fondo{
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    margin-top: 205px;
+    font-weight: 600;
+    display: block;
+    z-index: 2;
+} */
+
+.fs-2 {
+    position: relative;
+    right: -500px;
+    z-index: 2;
+}
+
+#btninicio {
+    position: relative;
+    z-index: 3;
+}
+
+.carousel-inner {
+    width: 100%;
+    background-size: cover;
+}
+
+h3{
+    font-weight: 800;
+    position: absolute;
+    bottom: 520px;
+    left: 950px;
+    letter-spacing: 3px;
+}
+
+#txt{
+    position: absolute;
+    bottom: 520px;
+    left: 990px;
+}
+
+#txtr{
+    position: absolute;
+    bottom: 520px;
+    left: 980px;
+}
+
+#txtf{
+    position: absolute;
+    bottom: 520px;
+    left: 930px;
+}
+
+#filter {
+    filter: contrast(85%);
+}
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#cardlink{
+    text-decoration: none;
+    color: black;
+}
+
+#title{
+    text-align: center;
+    font-weight: 600;
+    color: #f68741;
+    font-family: 'mostra_nuovaaltb_bold';
+}
+
+#parrafo {
+    font-size: medium;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}
+
+#imgparrafo{
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+#imgsus{
+    width: 80%;
+    height: 22vh;
+    display: block;
+    margin: auto;
+    
+}
+
+#suscribete{
+    position: absolute;
+    bottom: 80px;
+    right: 245px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+#btnsus{
+    position: absolute;
+    bottom: 30px;
+    right: 280px;
+}
+
+#contimg{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}  
+
+
+

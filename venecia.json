@@ -1,0 +1,25 @@
+[{
+	"img": "grancanal.jpg",
+	"title": "Gran Canal",
+    "text": "El más grande e importante de todos los canales de Venecia. Sus cuatro kilómetros de longitud recorren Venecia dividiendo la ciudad en dos partes."
+}, {
+	"img": "plazasan.jpg",
+	"title": "Plaza de San Marcos",
+    "text": "Se encuentra en el corazón de Venecia, en ella se encuentran los edificios más representativos de la ciudad. Napoleón la definió como El salón más bello de Europa."
+}, {
+	"img": "basilicasan.jpg",
+	"title": "Basílica de San Marcos",
+    "text": "Templo religioso más importante de Venecia. Situada junto al Palacio Ducal en la plaza que lleva su nombre. Centro de la vida pública y religiosa."
+}, {
+	"img": "palacioducal.jpg",
+	"title": "Palacio Ducal",
+    "text": "Uno de los principales símbolos de Venecia. A lo largo de su historia, ha sido desde la residencia de los dux, hasta la prisión de la República de Venecia."
+}, {
+	"img": "puenterialto.jpg",
+	"title": "Puente Rialto",
+    "text": "Es el más antiguo y famoso de los cuatro puentes que cruzan el Gran Canal de Venecia. Durante años fue el centro económico más importante de Venecia."
+}, {
+	"img": "museocorrer.jpg",
+	"title": "Museo Correr",
+    "text": "Museo más importante de Venecia. Narra la historia de la ciudad desde su fundación hasta el siglo XIX. Alberga pintura, escultura, instrumentos navales y más."
+}]

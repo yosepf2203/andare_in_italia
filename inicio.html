@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andare In Italia</title>
+    <link rel="icon" type="image/svg+xml" href="img/italia.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="img/italia_nav.svg" alt="Bandera de Italia" width="28" height="28"
+                    class="d-inline-block align-text-top">
+                Andare In Italia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Disabled</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" id="micuenta" data-bs-target="#ModalMiCuenta">Mi
+                        Cuenta</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" id="salir"
+                        data-bs-target="#ModalSalir">Salir</a>
+                    <!-- <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalIngresar">Ingresar</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal"
+                        data-bs-target="#ModalRegistrarse">Registrarse</a> -->
+                </div>
+            </div>
+        </div>
+    </nav> <br>
+
+    <div class="container-fluid"></div>
+    <div class="container">
+        <h1 id="title">
+            Andare In Italia
+        </h1>
+        <p class="fw-normal lh-base" id="parrafo">Cuna del renacimiento europeo, sinónimo de arte y buen gusto.
+            Desde su vibrante gastronomía hasta la belleza de sus pueblos y ciudades, Italia tiene de todo y
+            para todo el mundo.
+            En este país del sur de Europa nacieron algunos de los más grandes artistas cuyas obras podemos
+            admirar en lugares como
+            Florencia o la propia Ciudad del Vaticano.</p>
+    </div>
+    </div>
+
+    <!-- Button trigger modal 
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal Mi Cuenta -->
+    <div class="modal fade" id="ModalMiCuenta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="login100-form-title" style="background-image: url(img/italia_micuenta.jpg)">
+                        <span class="inicio-titulo-1">
+                            Mi cuenta
+                        </span>
+                    </div> <br>
+                    <div class="micuenta">
+                        Info de la cuenta
+                    </div>
+                </div>
+                <div class="container-fluid" id="myaccount">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <button type="submit" name="button" data-bs-dismiss="modal"
+                                class="btn btn-outline-secondary">
+                                <i class="fas fa-times-circle"></i> Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container-fluid">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="filter" src="img/venecia.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Venecia</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img id="filter" src="img/florencia.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 id="txtf">Florencia</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/roma.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 id="txt">Roma</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/turin.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 id="txt">Turín</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/milan.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Milán</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pisa.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 id="txtr">Pisa</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div> <br>
+
+    <!-- <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <img id="imgparrafo" src="img/italia_parrafo.jpg" alt="Italia">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <p class="fw-normal lh-base" id="parrafo">Cuna del renacimiento europeo, sinónimo de arte y buen gusto. <br>
+                        Desde su vibrante gastronomía hasta la belleza de sus pueblos y ciudades, Italia tiene de todo y
+                        para todo el mundo. <br>
+                        En este país del sur de Europa nacieron algunos de los más grandes artistas cuyas obras podemos
+                        admirar en lugares como
+                        Florencia o la propia Ciudad del Vaticano.</p>
+                </div>
+            </div>
+        </div>
+    </div> <br> <br> -->
+
+
+
+    <!-- Cards -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <a href="venecia.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/venecia.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Venecia</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="florencia.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/florencia.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Florencia</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="roma.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/roma.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Roma</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="venecia.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/turin.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Turín</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="venecia.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/milan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milán</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="venecia.html" id="cardlink">
+                        <div class="card h-100">
+                            <img src="img/pisa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pisa</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in
+                                    to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> <br> <br>
+
+    <div class="container-fluid" id="contimg">
+        <div class="container">
+            <img id="imgsus" src="img/suscribirse.jpg" alt="Pizza italiana">
+            <h2 id="suscribete">Suscríbete y obtén beneficios</h2>
+            <button type="button" class="btn btn-outline-light" id="btnsus">Suscribirse</button>
+        </div>
+    </div> <br> <br>
+
+    <!-- Imagen de <a href="https://pixabay.com/es/users/babelphotography-155772/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=279013">
+        Bela Balla</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=279013">Pixabay</a> 
+    
+        Imagen de <a href="https://pixabay.com/es/users/openpics-1148498/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1655830">
+            Openpics</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1655830">Pixabay</a>
+
+        Imagen de <a href="https://pixabay.com/es/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2451047">
+        David Mark</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2451047">Pixabay</a> 
+        
+        Imagen de <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1209808">
+        Free-Photos</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1209808">Pixabay</a>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/819d38fe29.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+
+    <script src="js/firebase.js"></script>
+    <script src="js/autorizacion.js"></script>
+    <script src="js/inicio.js"></script>
+
+</body>
+
+</html>

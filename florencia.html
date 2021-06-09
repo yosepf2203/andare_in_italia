@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florencia</title>
+    <link rel="icon" type="image/svg+xml" href="img/venecia.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylei.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="contimg">
+        <img class="imghd" src="img/florenciapg.png" alt="Florencia">
+        <h1 id="titlehd">Florencia</h1>
+        <!--    <button type="button" class="btn btn-outline-light" id="btnpage">Suscribirse</button>  -->
+    </div> <br>
+
+    <div class="container">
+        <p class="marginpg" id="intro">La cuna del renacimiento italiano rebosa tanto arte que es difícil hacerse una
+            idea de todo lo que ofrece esta preciosa ciudad de la Toscana. <br> <br>
+            En el siglo XIV algunos de los genios más grandes del arte como Leonardo Da Vinci o Miguel Ángel crearon
+            obras
+            maestras que maravillaron al mundo. Florencia es sinónimo de arte en su máximo esplendor y eso se traduce en
+            los museos y edificios que presenta de una belleza abrumadora. <br> <br>
+            La Galería de los Oficios contiene una enorme cantidad de magníficas pinturas a la que sólo puede hacer
+            sombra
+            otra obra maestra florentina que se encuentra en la Galería de la Academia: el famoso David de Miguel Ángel.
+            <br> <br>
+        </p>
+    </div> <br> <br>
+
+    <div class="container">
+        <h1 class="marginpg text-center subtitle">Principales atracciones turísticas</h1>
+    </div> <br>
+
+    <div class="container">
+        <div class="row text-center marginpg">
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/piazza-del-duomo.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Piazza del Duomo</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p> La cara de presentación de Florencia. Las reconocidas edificaciones que allí se encuentran,
+                            son de los principales puntos de interés turísticos. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/piazza-della-signoria.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Piazza della Signorina</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Plaza de la Señoría es la plaza más importante de Florencia. Está situada entre la Piazza
+                            del Duomo y el río Arno. Es el centro del poder civil y la zona más animada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/uffizi.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Galería Uffizi</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Una de las colecciones de pintura más ricas y famosas del mundo. Con cuadros como El
+                            Nacimiento de Venus de Botticelli, es el lugar más visitado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/galeria-acedmia.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Galería de la Academia</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Con una gran colección de escultura, pintura e instrumentos musicales, destaca por
+                            albergar una de las esculturas más famosas: David de Miguel Ángel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/palazzo-vecchio.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Palazzo Vecchio</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Con una decoración que recuerda a los palacios venecianos y una arquitectura que define la
+                            ciudad, el Palacio es una de las visitas más interesantes. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/puente-viejo.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Ponte Vecchio</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Con sus casas y tiendas colgantes, es uno de los puentes más famosos del
+                            mundo. Como curiosidad, es el puente de piedra más antiguo de Europa. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <br> <br>
+
+    <div class="container">
+        <h1 class="marginpg text-center subtitle">¿Qué visitar?</h1>
+    </div> <br> <br>
+
+
+    <div class="container">
+        <div class="col-12">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3HTGbR2g2fA9AMdMoXbAIYMz2dIONoFs&callback=iniciaMapa"
+        async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

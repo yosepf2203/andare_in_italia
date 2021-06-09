@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venecia</title>
+    <link rel="icon" type="image/svg+xml" href="img/venecia.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylei.css">
+
+</head>
+
+<body>
+    <div id="contimg">
+        <img class="imghd" src="img/veneciapg.png" alt="Venecia">
+        <h1 id="titlehd">Venecia</h1>
+        <!--    <button type="button" class="btn btn-outline-light" id="btnpage">Suscribirse</button>  -->
+    </div> <br>
+
+    <div class="container">
+        <p class="marginpg" id="intro">Venecia es un conjunto de 120 islas unidas a través de puentes. Desde Mestre se
+            puede llegar
+            a Venecia utilizando el Puente de la Libertad, que lleva hasta la Piazzale Roma. <br> <br>
+
+            Como es de imaginar, la ciudad ha sufrido inundaciones periódicas desde sus inicios y, a día de hoy, la
+            ciudad continúa sufriendo las amenazas de las repetidas inundaciones que provocan el fenómeno conocido como
+            Acqua Alta. <br> <br>
+
+            En primavera y otoño suele subir el nivel del agua, por lo que es frecuente que la Plaza de San Marcos se
+            inunde hasta tal punto que las autoridades tienen que colocar pasarelas para que caminen los peatones. <br>
+            <br>
+        </p>
+    </div> <br> <br>
+
+    <div class="container">
+        <h1 class="marginpg text-center subtitle">Principales atracciones turísticas</h1>
+    </div> <br>
+
+    <div class="container">
+        <div class="row text-center marginpg">
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/grancanal.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Gran Canal</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p> El más grande e importante de todos los canales de Venecia. Sus cuatro
+                            kilómetros de longitud recorren Venecia dividiendo la ciudad en dos partes. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/plazasan.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Plaza de San Marcos</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Se encuentra en el corazón de Venecia, en ella se encuentran los edificios más
+                            representativos de la ciudad. Napoleón la definió como "El salón más bello de Europa".</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/basilicasan.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Basílica de San Marcos</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Templo religioso más importante de Venecia. Situada junto al Palacio Ducal en la
+                            plaza que lleva su nombre. Centro de la vida pública y religiosa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/palacioducal.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Palacio Ducal</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Uno de los principales símbolos de Venecia. A lo largo de su historia, ha sido
+                            desde la residencia de los dux, hasta la prisión de la República de Venecia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/puenterialto.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Puente Rialto</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Es el más antiguo y famoso de los cuatro puentes que cruzan el Gran
+                            Canal de Venecia. Durante años fue el centro económico más importante de Venecia. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-container">
+                <div class="card card-flip">
+                    <div class="front card-block">
+                        <img src="img/museocorrer.jpg" class="card-img-top p-2" alt="...">
+                        <h4 class="card-title">Museo Correr</h4>
+                    </div>
+                    <div class="back card-block">
+                        <p>Museo más importante de Venecia. Narra la historia de la ciudad desde su fundación hasta el
+                            siglo XIX. Alberga pintura, escultura, instrumentos navales y más. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <br> <br>
+
+    <div class="container marginpg">
+        <h1 class="marginpg text-center subtitle">¿Qué visitar?</h1> <br> <br>
+        
+            <div class="row">
+                <div class="col-8">
+                    <div id="map"></div>
+                </div>
+                <div class="col-4">
+                    <select name="tipo" id="tipo" class="form-control" aria-label="Default select example">
+                        <option selected>Opciones</option>
+                        <option value="atm">Cajero automático</option>
+                        <option value="dentist">Dentista</option>
+                        <option value="clothing_store">Boutique</option>
+                        <option value="store">Tienda</option>
+                    </select>
+                    <ul id="placesList"></ul>
+                </div>                
+            </div>
+        
+    </div> <br> <br>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv-m46ebIV9fqkE2fIBGeWunmGmBm2R24&libraries=places&callback=iniciaMapa"
+        async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
