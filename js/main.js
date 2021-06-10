@@ -26,11 +26,11 @@ var markers = [];
 
 function iniciaMapa() {
 
-    var coordenadas = { lat: 21.152639, lng: -101.711598 };
+    var coordenadas = { lat: 45.4317805, lng: 12.3457772 };
 
     var propiedades = {
         center: coordenadas,
-        zoom: 12
+        zoom: 13
     };
 
     map = new google.maps.Map(document.getElementById('map'), propiedades);
