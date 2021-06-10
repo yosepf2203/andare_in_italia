@@ -47,7 +47,7 @@ tipo.addEventListener('change', function () {
 
 function muestraLugares() {
     if (navigator.geolocation) {
-        navigator.geolocation(posicion => {
+        navigator.geolocation.watchPosition(posicion => {
 
             var coordenadas = {
                 lat: posicion.coords.latitude,
